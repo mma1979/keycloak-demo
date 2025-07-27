@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  api:
+    build:
+      context: "/Users/mma/workspaces/mma-workspace/keycloack-demo"
+      dockerfile: "./Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/KeycloackDemoApi.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "keycloackdemoapi:dev"
+    ports: []
+    volumes:
+    - "/Users/mma/workspaces/mma-workspace/keycloack-demo:/app:rw"
+    - "/Users/mma/workspaces/mma-workspace/keycloack-demo:/src:rw"
+    - "/Users/mma/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"

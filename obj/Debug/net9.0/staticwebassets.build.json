@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Fc6+4aY6KvcuFhDLAj1k8we0NR5JZQavoy2Pl3CSOZU=",
+  "Source": "KeycloackDemoApi",
+  "BasePath": "_content/KeycloackDemoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
